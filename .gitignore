@@ -1,0 +1,12 @@
+# Dependencias (no hay, pero por si acaso)
+node_modules/
+package-lock.json
+
+# Archivos temporales de pruebas y capturas
+_*
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

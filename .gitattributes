@@ -1,0 +1,7 @@
+# Normaliza los finales de línea para que el repositorio sea consistente
+* text=auto eol=lf
+
+# Imágenes
+*.jpg binary
+*.png binary
+*.gif binary
