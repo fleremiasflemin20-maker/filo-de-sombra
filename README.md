@@ -5,7 +5,7 @@
 <h3>Acción arcade 2D · dispara, corta y sobrevive a las oleadas</h3>
 
 <p>
-  <a href="https://fleremiasflemin20-maker.github.io/filo-de-sombra/"><img alt="Jugar ahora" src="https://img.shields.io/badge/%E2%96%B6%20JUGAR-AHORA-2fd6ff?style=for-the-badge"></a>
+  <a href="https://fleremiasflemin20-maker.github.io/filo-de-sombra/"><img alt="Jugar ahora" src="https://img.shields.io/badge/%E2%96%B6-JUGAR%20AHORA-2fd6ff?style=for-the-badge"></a>
 </p>
 
 <p>
@@ -27,7 +27,7 @@ Todo el juego —gráficos, sonido y lógica— cabe en **un único `index.html`
 dependencias, ni build, ni imágenes, ni fuentes externas. Se abre con doble clic y funciona
 sin conexión.
 
-## 🎮 Jugar
+## :video_game: Jugar
 
 **En línea:** [fleremiasflemin20-maker.github.io/filo-de-sombra](https://fleremiasflemin20-maker.github.io/filo-de-sombra/)
 
@@ -35,7 +35,7 @@ sin conexión.
 
 > No hace falta servidor. El juego usa `file://` sin problemas.
 
-## ⌨️ Controles
+## :keyboard: Controles
 
 | Acción | Teclado / ratón | Táctil |
 | :-- | :-- | :-- |
@@ -48,7 +48,7 @@ sin conexión.
 | Pausa | `P` o `Esc` | — |
 | Silenciar | `M` | — |
 
-## ⚡ Técnicas
+## :zap: Técnicas
 
 Cada técnica gasta energía y tiene recarga propia. La energía se recupera sola, y también
 al acertar disparos y golpear, así que nunca te quedas sin recursos para siempre.
@@ -63,7 +63,7 @@ al acertar disparos y golpear, así que nunca te quedas sin recursos para siempr
 El ataque normal tiene dos modos con recargas separadas: **disparo** (rápido, a distancia) y
 **tajo** (cuerpo a cuerpo, golpea a varios y corta proyectiles).
 
-## 👾 Enemigos
+## :space_invader: Enemigos
 
 | Tipo | Color | Comportamiento |
 | :-- | :-- | :-- |
@@ -72,7 +72,7 @@ El ataque normal tiene dos modos con recargas separadas: **disparo** (rápido, a
 | Bruto | violeta | lento, mucha vida y golpe fuerte |
 | **Jefe** | rojo intenso | anillo de balas, embestida telegrafiada e invocación de esbirros. Se enfurece al 45 % de vida |
 
-## 📸 Capturas
+## :camera: Capturas
 
 <table>
   <tr>
@@ -91,7 +91,7 @@ El ataque normal tiene dos modos con recargas separadas: **disparo** (rápido, a
 <img src="capturas/derrota.jpg" alt="Pantalla de fin de partida">
 </details>
 
-## ✨ Lo que hace especial
+## :sparkles: Lo que hace especial
 
 - **Se siente bien golpear.** *Hitstop* de 45–70 ms, sacudida de cámara, destello al recibir,
   números de daño, partículas aditivas y cámara lenta al derribar al jefe.
@@ -104,7 +104,7 @@ El ataque normal tiene dos modos con recargas separadas: **disparo** (rápido, a
 - **Listo para móvil.** Dos sticks virtuales, botones de técnica y HUD que se adapta.
 - **Récord guardado** en `localStorage` y pausa automática al perder el foco.
 
-## 🛠️ Cómo está hecho
+## :hammer_and_wrench: Cómo está hecho
 
 ```
 .
@@ -123,7 +123,7 @@ El ataque normal tiene dos modos con recargas separadas: **disparo** (rápido, a
   ruido.
 - Sin frameworks, sin bundler, sin dependencias: 74 KB de archivo.
 
-## 🚀 Ejecutar en local
+## :rocket: Ejecutar en local
 
 ```bash
 git clone https://github.com/fleremiasflemin20-maker/filo-de-sombra.git
@@ -132,7 +132,7 @@ cd filo-de-sombra
 python -m http.server 8000
 ```
 
-## 🧪 Pruebas
+## :test_tube: Pruebas
 
 `prueba-humo.cjs` ejecuta el juego en Node con un DOM y un canvas falsos, simula partidas y
 comprueba el arranque, las oleadas, el combate, las cuatro técnicas, el jefe, la muerte y el
@@ -146,7 +146,7 @@ node prueba-humo.cjs
 30/30 comprobaciones OK
 ```
 
-## 🎛️ Ajustar el balance
+## :control_knobs: Ajustar el balance
 
 Casi todo vive en `index.html`:
 
@@ -168,13 +168,13 @@ __filo.energy(100)    // llena la energía
 __filo.startWave(5)   // salta al jefe
 ```
 
-## 🗺️ Ideas para la siguiente versión
+## :map: Ideas para la siguiente versión
 
 - Técnicas con niveles (bola que rebota, ráfaga que persigue, escudo que explota al romperse).
 - Un ataque definitivo con barra de furia.
 - Enemigos que obliguen a usar una técnica concreta.
 - Modo infinito con tabla de récords y modo contrarreloj.
 
-## 📄 Licencia
+## :page_facing_up: Licencia
 
 [MIT](LICENSE) — úsalo, modifícalo y compártelo.
